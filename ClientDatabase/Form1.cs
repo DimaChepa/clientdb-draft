@@ -20,10 +20,6 @@ namespace ClientDatabase
             service = new FileService();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-        }
-
         private void btnAddUser_Click(object sender, EventArgs e)
         {
             if (!string.IsNullOrEmpty(txtName.Text)
